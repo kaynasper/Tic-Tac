@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+    font-family: "Calibri";
+}
+
+#maincontainer{
+    height: 550px;
+    background-color: antiquewhite;
+    margin: auto;
+    position: relative;
+}
+
+#topdiv{
+    height: 100px;
+}
+
+#container{
+    width: 300px;
+    height: 300px;
+    background-color: dimgrey;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttons{
+    font-family: "Comic Sans MS";
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    font-weight: bold;
+    background-color: beige;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: white;
+    color: burlywood;
+}
+
+.buttons:active{
+    color: saddlebrown;
+    font-weight: bolder;
+    font-size: 16px;
+}
